@@ -25,7 +25,7 @@ public class Test1
 		driver.manage().window().maximize();
 		driver.get("http://172.16.1.215:9090");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		
+	//  Added new comment for this script	
 		
 		Thread.sleep(7000);
 		driver.findElement(By.xpath("//*[@id='tree_close']")).click();
